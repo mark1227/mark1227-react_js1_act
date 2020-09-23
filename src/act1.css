@@ -1,8 +1,8 @@
 .In {
-    border: solid blue 3px;
+    border: solid gold 3px;
     width: 60%;
     text-align: center;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 10px 5px 5px cornflowerblue;
+    box-shadow: 10px 5px 5px goldenrod;
 }

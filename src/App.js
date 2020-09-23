@@ -26,7 +26,7 @@ class App extends Component {
 
     return (
       <div style={design}>
-      <UserInput changed = { this.UpdateUsername } name = {this.state.username}/>
+      <UserInput changed = { this.UpdateUsername } value={ this.state.username }/>
       <UserOutput name= { this.state.username }  />
       </div>
     );
@@ -38,6 +38,7 @@ const UserInput = ( props ) =>{
     <div className="In">
       <input type="text" 
         onChange = { props.changed }
+        value = { props.value }
       />
     </div>
   );
